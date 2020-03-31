@@ -7,30 +7,22 @@ This script helps engineers to execute commands on many devices.
 
 This script tested on Linux/Windows with python3.7 or higher.  
 The following packages are required:
- - termcolor
  - napalm
+ - termcolor
  - tabulate
+ - simple_term_menu
 
 It's recommended to crate a virtual environment, activate it and then install the packages:
 
-For Windows:
+
+Works only on Linux:
 
 ```sh
-> git clone https://scm.dimensiondata.com/marco.palmieri/pushcomm.git
-> cd pushcomm
-> python -m venv VENV-NAME
-> VENV-NAME\Scripts\activate.bat
-> pip install termcolor tabulate napalm
-```
-
-For Linux:
-
-```sh
-$ git clone https://scm.dimensiondata.com/marco.palmieri/pushcomm.git
+$ git clone https://github.com/Pr1meSuspec7/pushComm.git
 $ cd pushcomm
 $ python -m venv VENV-NAME
 $ source VENV-NAME/bin/activate
-$ pip install termcolor tabulate napalm
+$ pip install -r requirements.txt
 ```
 >NOTE: chose a name for virtual environment and replace the `VENV-NAME` string
 
@@ -41,5 +33,8 @@ $ pip install termcolor tabulate napalm
 You have to run the command and follow the interactive menu:
 
 ```sh
-$ python pushComm.py
+$ python pushcomm.py
 ```
+
+This is a sample execution:
+[![asciicast](https://asciinema.org/a/SgniCUMHCWK88WKy9qAWd1Mp7.svg)](https://asciinema.org/a/SgniCUMHCWK88WKy9qAWd1Mp7)
