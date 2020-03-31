@@ -5,7 +5,7 @@ This script helps engineers to execute commands on many devices.
 
 ### Requirements
 
-This script tested on Linux/Windows with python3.7 or higher.  
+This script tested on Linux with python3.7 or higher. (works only on Linux)
 The following packages are required:
  - napalm
  - termcolor
@@ -15,7 +15,7 @@ The following packages are required:
 It's recommended to crate a virtual environment, activate it and then install the packages:
 
 
-Works only on Linux:
+For Linux:
 
 ```sh
 $ git clone https://github.com/Pr1meSuspec7/pushComm.git
