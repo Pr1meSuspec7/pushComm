@@ -5,7 +5,7 @@ This script helps engineers to execute commands on many devices.
 
 ### Requirements
 
-This script tested on Linux with python3.7 or higher. (works only on Linux)
+This script tested on Linux with python3.7 or higher. (works only on Linux)  
 The following packages are required:
  - napalm
  - termcolor
