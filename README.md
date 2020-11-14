@@ -37,5 +37,11 @@ $ python pushcomm.py
 ```
 
 This is a sample execution:
-[![asciicast](https://asciinema.org/a/SgniCUMHCWK88WKy9qAWd1Mp7.svg)](https://asciinema.org/a/SgniCUMHCWK88WKy9qAWd1Mp7)
+NOTE: For this test I used a Cisco Devenet machine CSR1000V (https://developer.cisco.com/)
+[![asciicast](https://asciinema.org/a/vVZWcUV9OrV9zqhiXWkJNMFhb.svg)](https://asciinema.org/a/vVZWcUV9OrV9zqhiXWkJNMFhb)
 
+
+### Next features
+
+ - Save output in a file
+ - Select connection protocol (SSH/Telnet)
